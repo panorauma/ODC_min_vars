@@ -1,0 +1,27 @@
+﻿Variable,Description,Community,notes
+SubjectID,Unique identifiers for each subject in the dataset,odc-sci,formerly Subject_ID
+SpeciesTyp,Species of the subject,odc-sci,formerly Species
+SpeciesStrainTyp,Strain of the subject,odc-sci,formerly Strain
+Animal_origin,Vendor or origin of the animal,odc-sci,
+AgeVal,"Age of the subject at start of experiment. If age is available at different timepoints, age is provided at the corresponding time in a corresponding time/timepoint variable",odc-sci,formerly Age
+BodyWgtMeasrVal,"Weight of the subject at start of experiment. If weight is available at different timepoints, weight is provided at the corresponding time in a corresponding time/timepoint variable",odc-sci,formerly Weight
+SexTyp,Sex of the subject,odc-sci,formerly Sex
+InjGroupAssignTyp,Name or identifier of the experimental group at which the subject was included if any,odc-sci,formerly Group
+Laboratory,"Name of laboratory, usually the PI",odc-sci,
+StudyLeader,Name of person responsible for overseeing project ,odc-sci,
+Exclusion_in_origin_study,"Whether the subject was included in the study that originated the data. 'Total exclusion"" if excluded from the entire study, otherwise, specify experiment or measures of which the animal was excluded if any. For example: animals that were run in behavior but maybe tissue is loss and excluded from histological analyses. Reasons for exclusion might be specify in the exclusion_reason variable.",odc-sci,
+Exclusion_reason,Reason by which the subject was excluded from the study that originated the data as specified in the Exclusion_in_origin_study variable,odc-sci,
+Cause_of_Death,"Cause of death (e.g. perfusion/necropsy, died during surgery, euthanized for health reasons, etc)",odc-sci,
+Injury_type,"Type or model of injury used in the subject (e.g. contusion, complete transaction, partial section)",odc-sci,
+Injury_device,Name of the device used for the injury,odc-sci,
+Injury_level,Spinal cord level at which the injury was performed including segment (e.g. cervical; C) and number (e.g. C5),odc-sci,
+Injury_details,Other details referent to the injury that might be relevant to understand the severity and type of injury performed,odc-sci,
+SubjectID,The subject ID used to uniquely identify an subject within a study,odc-tbi,
+SpeciesTyp,Type of organism species for a particular subject,odc-tbi,
+SpeciesStrainTyp,Type of the animal strain (for mice and rat) for a each subject,odc-tbi,
+AgeVal,"Age of the animal at the time of procedure in weeks. If additional units are used, please include the appropriate Unit of Measurement companion CDE.",odc-tbi,
+BodyWgtMeasrVal,Value of measurement of animal weight; use the appropriate companion Unit of Measurement CDE.,odc-tbi,
+SexTyp,Type of organism sex as determined by observation,odc-tbi,
+InjGroupAssignTyp,Type of group assignment for an individual subject,odc-tbi,
+TBIModelTyp,Type of traumatic brain injury (TBI) model(s) used to induce the mechanism of TBI,odc-tbi,
+InjElapsedTime,"The elapsed time from the time of injury. If additional units are used, please include the appropriate Unit of Measurement companion CDE",odc-tbi,
