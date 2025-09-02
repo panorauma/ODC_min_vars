@@ -2,7 +2,7 @@
 SubjectID,Unique identifiers for each subject in the dataset,odc-sci,formerly Subject_ID
 SpeciesTyp,Species of the subject,odc-sci,formerly Species
 SpeciesStrainTyp,Strain of the subject,odc-sci,formerly Strain
-Animal_origin,Vendor or origin of the animal,odc-sci,
+AnimalSourceNam,Vendor or origin of the animal,odc-sci,
 AgeVal,"Age of the subject at start of experiment. If age is available at different timepoints, age is provided at the corresponding time in a corresponding time/timepoint variable",odc-sci,formerly Age
 BodyWgtMeasrVal,"Weight of the subject at start of experiment. If weight is available at different timepoints, weight is provided at the corresponding time in a corresponding time/timepoint variable",odc-sci,formerly Weight
 SexTyp,Sex of the subject,odc-sci,formerly Sex
